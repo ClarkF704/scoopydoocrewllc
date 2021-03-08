@@ -1,0 +1,208 @@
+body{
+  background-color:rgba(1,176,240,0.2)
+}
+
+.content-1-start-landing{
+  margin-top:50px;
+  margin-bottom: 150px;
+}
+
+.landing-first-head{
+  padding: 10px 10px 10px 10px;
+  margin-top:20px;
+  text-align: center;
+  font-size: 30px;
+  /* background-color: #fff; */
+}
+.img-cent-head-land{
+  text-align: center;
+}
+.block-f-h{
+  text-align: center;
+  float:right;
+
+}
+.square {
+  position:relative;
+  /* margin-top:50px ; */
+  margin:20px 10px 20px 20px;
+  height: 350px;
+  width: 400px;
+  background-color: #01b0f0;
+}
+.shadow-square{
+  margin:0 auto;
+  height: 400px;
+  width: 450px;
+  /* background: rgba(1,176,240,0.7); */
+  background: rgb(119,78,41);
+  position: absolute;
+  margin-left:100px;
+  border:#000 solid 5px;
+}
+.contact-photo{
+  position:relative;
+  /* margin-top:50px ; */
+  margin:20px 10px 20px 20px;
+  height: 350px;
+  width: 400px;
+}
+.contact-photo-background{
+  margin:0 auto;
+  height: 400px;
+  width: 450px;
+  /* background: rgba(1,176,240,0.7); */
+  background: rgb(119,78,41);
+  position: absolute;
+  margin-left:100px;
+  border:#000 solid 5px;
+}
+.service-card-bckg{
+  margin:0 auto;
+  height: 300px;
+  width: 350px;
+  background: rgb(119,78,41);
+  
+  border:#000 solid 5px;
+  padding:5px 5px 5px 5px;
+}
+.logo-in-box-landing{
+  height:350px;
+  width:400px;
+}
+.process-icon-landing{
+  
+  height:100px;
+  width:100px;
+}
+.card-let{
+  font-family: 'Acme', sans-serif;
+}
+
+.family-head{
+  font-family: 'Montserrat', sans-serif;
+  float:right;
+}
+
+.fam-shadow{
+  margin:0 auto;
+  height: 500px;
+  width: 350px;
+  /* background: rgba(1,176,240,0.2); */
+  background: rgb(119,78,41);
+  position: absolute;
+  border:#000 solid 5px;
+  
+}
+
+.fam-img{
+  margin:25px 25px 25px 25px;
+  position: relative;
+  width:290px;
+  height:450px;
+}
+.about-img{
+  width:400px;
+  height:500px;
+  margin:25px 25px 25px 25px;
+  position: relative;
+  width:290px;
+  height:450px;
+}
+.about-shadow{
+  margin:0 auto;
+  height: 500px;
+  width: 350px;
+  margin-left:50px;
+  /* background: rgba(1,176,240,0.2); */
+  background: rgb(119,78,41);
+  position: absolute;
+  border:#000 solid 5px;
+}
+.about-jumbo-one{
+  background-color:rgb(119,78,41);
+  color:#fff;
+}
+.h1-index{
+  text-align: center;
+  color: #000;
+  font-size: 90px;
+  font-family: 'Acme', sans-serif;
+}
+.card-direction-index{
+  width: 18rem;
+}
+
+
+/* Responsive */
+
+@media only screen and (max-width: 500px) {
+  .h1-index{
+    font-size: 45px;
+  }
+
+  .shadow-square{
+    margin:0 auto;
+  height: 300px;
+  width: 350px;
+  /* background: rgba(1,176,240,0.7); */
+  background: rgb(119,78,41);
+  position: absolute;
+  margin-left:0px;
+  border:#000 solid 5px;
+  }
+
+  .square {
+    position:relative;
+    /* margin-top:50px ; */
+    margin:20px 10px 20px 20px;
+    height: 250px;
+    width: 200px;
+    background-color: #01b0f0;
+  }
+  .logo-in-box-landing{
+    height:250px;
+    width:300px;
+  }
+  .card-direction-index{
+    width: 15rem;
+    margin-left:50px;
+    padding-top:5px;
+    padding-bottom: 10px;
+  }
+  .call-card-inst{
+    margin-top: 180px;
+  }
+  .maddux-index{
+    display: none;
+  }
+  .amora-index{
+    display: none;
+  }
+
+  .contact-photo{
+    position:relative;
+    /* margin-top:50px ; */
+    margin:20px 10px 20px 20px;
+    height: 250px;
+    width: 300px;
+  }
+  .contact-photo-background{
+    margin:0 auto;
+    height: 300px;
+    width: 350px;
+    /* background: rgba(1,176,240,0.7); */
+    background: rgb(119,78,41);
+    position: absolute;
+    margin-left: 0px;
+    border:#000 solid 5px;
+  }
+
+  .colum-contact-photo{
+    padding-top: 20px;
+  }
+
+
+
+}
+
